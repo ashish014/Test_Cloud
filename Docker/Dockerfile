@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM amazonlinux
 MAINTAINER FelineInc
 RUN yum -y install httpd
 COPY index.html containercat.jpg /var/www/html/
